@@ -68,9 +68,5 @@ public class Prova {
 
     //    System.out.println("Il secondo numero e: "+t);
 
-
-
-
-
     }
 }
