@@ -56,17 +56,33 @@ public class Prova {
         // if(y > 0)   System.out.println("maggiore di 0");
         // else        System.out.println("minore di 0");
 
-    //     Scanner scan = new Scanner(System.in);
+        //     Scanner scan = new Scanner(System.in);
 
-    //     System.out.println("Inserisci un numero");
-    //     int r = scan.nextInt();
+        //     System.out.println("Inserisci un numero");
+        //     int r = scan.nextInt();
 
-    //     System.out.println("Il numero e: "+r);
+        //     System.out.println("Il numero e: "+r);
 
-    //     System.out.println("Inserisci secondo numero");
-    //     int t = scan.nextInt();
+        //     System.out.println("Inserisci secondo numero");
+        //     int t = scan.nextInt();
 
-    //    System.out.println("Il secondo numero e: "+t);
+        //    System.out.println("Il secondo numero e: "+t);
+
+
+        int[] e = new int[2];
+
+        float[] tmp = new float[30];
+
+        int f[] = new int[40];
+
+        e[1] = 40;
+        e[0] = 20;
+
+        int[] prova = {20,40};
+
+        for(int i = 0; i < e.length; i++){
+            System.out.println(e[i]);
+        }
 
     }
 }
